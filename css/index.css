@@ -1,0 +1,50 @@
+.box{
+    width: 56px;
+    height: 64px;
+    border: 2px solid #ebebeb;
+    background-color: #f7f6f6;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 64px;
+}
+/*向左倾斜30度*/
+.box1{
+    transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -webkit-transform: skew(30deg);
+    -o-transform: skew(30deg);
+}
+/*压缩两倍*/
+.box2{
+    transform: scale(0.5,1);
+    -ms-transform: scale(0.5,1);
+    -moz-transform: scale(0.5,1);
+    -webkit-transform: scale(0.5,1);
+    -o-transform: scale(0.5,1);
+}
+/*旋转45度*/
+.box3{
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+/*x轴位移10px，y轴位移20px*/
+.box4{
+    transform: translate(10px,20px);
+    -ms-transform: translate(10px,20px);
+    -moz-transform: translate(10px,20px);
+    -webkit-transform: translate(10px,20px);
+    -o-transform: translate(10px,20px);
+}
+/*包含以上所有变换*/
+.box5{
+    transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+    -ms-transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+    -moz-transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+    -webkit-transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+    -o-transform: skew(30deg) scale(0.5,1) rotate(45deg) translate(10px,20px);
+}
